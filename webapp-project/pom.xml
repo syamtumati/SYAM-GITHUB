@@ -30,6 +30,7 @@
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
+                <executable>/opt/jdk1.8.0_231/bin/javac</executable>
             </configuration>
         </plugin>
     </plugins>
