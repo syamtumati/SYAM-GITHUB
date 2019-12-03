@@ -1,0 +1,17 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: create the 'syam' user
+      user: name=syam append=yes state=present createhome=yes shell=/bin/bash
+
+    - name: allow 'syam' to have passwordless sudo
+      lineinfile:
+        dest: /etc/sudoers
+        line: 'syam ALL=(ALL) NOPASSWD: ALL'
+        validate: 'visudo -cf %s'
+
+    - name: set up authorized keys for the ubuntu user
+      authorized_key: user=syam key="{{item}}"
+      with_file:
+        - ~/.ssh/id_rsa.pub
+

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.example.tumati.AppTest" time="0.032" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Maven_Testing"/>
+    <property name="PWD" value="/"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/sbin:/usr/sbin:/bin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4366919ad7eb947a"/>
+    <property name="POM_ARTIFACTID" value="webapp-project"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/opt/jdk1.8.0_231/jre/lib/resources.jar:/opt/jdk1.8.0_231/jre/lib/rt.jar:/opt/jdk1.8.0_231/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_231/jre/lib/jsse.jar:/opt/jdk1.8.0_231/jre/lib/jce.jar:/opt/jdk1.8.0_231/jre/lib/charsets.jar:/opt/jdk1.8.0_231/jre/lib/jfr.jar:/opt/jdk1.8.0_231/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="previous" value="N"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="webapp-project"/>
+    <property name="PREVLEVEL" value="N"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="LANGSH_SOURCED" value="1"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Maven_Testing"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://192.168.163.128:8080/job/Maven_Testing/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="sun.boot.library.path" value="/opt/jdk1.8.0_231/jre/lib/amd64"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="CONSOLETYPE" value="vt"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="linux"/>
+    <property name="java.endorsed.dirs" value="/opt/jdk1.8.0_231/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/opt/maven/apache-maven-3.6.2/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="UPSTART_JOB" value="rc"/>
+    <property name="java.home" value="/opt/jdk1.8.0_231/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="2.6.32-431.el6.x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://192.168.163.128:8080/job/Maven_Testing/4/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="6e0455b22b54651c200dbe4483a37d8754249b20"/>
+    <property name="JOB_DISPLAY_URL" value="http://192.168.163.128:8080/job/Maven_Testing/display/redirect"/>
+    <property name="SHLVL" value="3"/>
+    <property name="RUNLEVEL" value="5"/>
+    <property name="_" value="/etc/alternatives/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="com.example.tumati"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-Maven_Testing-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4366919ad7eb947a"/>
+    <property name="HUDSON_URL" value="http://192.168.163.128:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/opt/maven/apache-maven-3.6.2"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/opt/maven/apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar:/opt/maven/apache-maven-3.6.2/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /opt/maven/apache-maven-3.6.2 /var/cache/jenkins/war/WEB-INF/lib/remoting-3.35.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 34135"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/opt/maven/apache-maven-3.6.2"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/opt/maven/apache-maven-3.6.2/bin"/>
+    <property name="BUILD_URL" value="http://192.168.163.128:8080/job/Maven_Testing/4/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/opt/jdk1.8.0_231/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/github/webapp-project"/>
+    <property name="JOB_URL" value="http://192.168.163.128:8080/job/Maven_Testing/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/opt/maven/apache-maven-3.6.2"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="JENKINS_URL" value="http://192.168.163.128:8080/"/>
+    <property name="GIT_BRANCH" value="origin/webapp"/>
+    <property name="GIT_COMMIT" value="6e0455b22b54651c200dbe4483a37d8754249b20"/>
+    <property name="UPSTART_INSTANCE" value=""/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="UPSTART_EVENTS" value="runlevel"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/Maven_Testing"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="jenkins"/>
+    <property name="GIT_URL" value="https://github.com/syamtumati/SYAM-GITHUB.git"/>
+  </properties>
+  <testcase classname="com.example.tumati.AppTest" name="testApp" time="0.032"/>
+</testsuite>

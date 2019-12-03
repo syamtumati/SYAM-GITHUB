@@ -1,0 +1,9 @@
+[masters]
+54.85.148.134
+
+[workers]
+3.85.32.122
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
